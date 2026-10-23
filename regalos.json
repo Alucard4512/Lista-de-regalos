@@ -1,0 +1,108 @@
+{
+  "experiencia-01": {
+    "nombre": "Un desayuno para dos",
+    "precio": 20000,
+    "estado": "disponible"
+  },
+  "experiencia-02": {
+    "nombre": "Una cita en el cine",
+    "precio": 20000,
+    "estado": "regalado"
+  },
+  "experiencia-03": {
+    "nombre": "Un brindis por nuestro amor",
+    "precio": 20000,
+    "estado": "disponible"
+  },
+  "experiencia-04": {
+    "nombre": "Una cita dulce",
+    "precio": 20000,
+    "estado": "disponible"
+  },
+  "experiencia-05": {
+    "nombre": "Un picnic romántico",
+    "precio": 20000,
+    "estado": "disponible"
+  },
+  "experiencia-06": {
+    "nombre": "Un brunch de recién casados",
+    "precio": 30000,
+    "estado": "disponible"
+  },
+  "experiencia-07": {
+    "nombre": "Una tarde de juegos",
+    "precio": 30000,
+    "estado": "disponible"
+  },
+  "experiencia-08": {
+    "nombre": "Una noche de pizza y amor",
+    "precio": 30000,
+    "estado": "disponible"
+  },
+  "experiencia-09": {
+    "nombre": "Una noche de vinos y quesos",
+    "precio": 30000,
+    "estado": "disponible"
+  },
+  "experiencia-10": {
+    "nombre": "Una cita creativa",
+    "precio": 30000,
+    "estado": "disponible"
+  },
+  "experiencia-11": {
+    "nombre": "Una cena romántica",
+    "precio": 40000,
+    "estado": "disponible"
+  },
+  "experiencia-12": {
+    "nombre": "Una ida al parque de diversiones",
+    "precio": 40000,
+    "estado": "disponible"
+  },
+  "experiencia-13": {
+    "nombre": "Una clase de baile para dos",
+    "precio": 40000,
+    "estado": "disponible"
+  },
+  "experiencia-14": {
+    "nombre": "Una aventura de escape room",
+    "precio": 40000,
+    "estado": "disponible"
+  },
+  "experiencia-15": {
+    "nombre": "Una noche de stand up comedy",
+    "precio": 40000,
+    "estado": "disponible"
+  },
+  "experiencia-16": {
+    "nombre": "Un masaje relajante en pareja",
+    "precio": 50000,
+    "estado": "disponible"
+  },
+  "experiencia-17": {
+    "nombre": "Una escapada romántica de camping",
+    "precio": 50000,
+    "estado": "disponible"
+  },
+  "experiencia-18": {
+    "nombre": "Una clase de cocina en pareja",
+    "precio": 50000,
+    "estado": "disponible"
+  },
+  "experiencia-19": {
+    "nombre": "Un paseo a caballo",
+    "precio": 50000,
+    "estado": "disponible"
+  },
+  "experiencia-20": {
+    "nombre": "Una aventura en kayak",
+    "precio": 50000,
+    "estado": "disponible"
+  },
+  "regalo-especial": {
+    "nombre": "Regalo especial",
+    "precio": null,
+    "estado": "disponible",
+    "especial": true
+  }
+}
