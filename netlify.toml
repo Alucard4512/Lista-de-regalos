@@ -1,0 +1,24 @@
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/regalos"
+  to = "/.netlify/functions/regalos"
+  status = 200
+
+[[redirects]]
+  from = "/api/crear-pago"
+  to = "/.netlify/functions/crear-pago"
+  status = 200
+
+[[redirects]]
+  from = "/api/flow-confirmacion"
+  to = "/.netlify/functions/flow-confirmacion"
+  status = 200
+
+[[redirects]]
+  from = "/resultado"
+  to = "/.netlify/functions/resultado"
+  status = 200
