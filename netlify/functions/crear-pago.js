@@ -137,17 +137,38 @@ exports.handler = async function (event) {
       }
     );
 
-    const resultado = await respuesta.json();
 
-    if (
-      !respuesta.ok ||
-      !resultado.url ||
-      !resultado.token
-    ) {
-      throw new Error(
-        "Flow no pudo crear el pago."
-      );
-    }
+const textoRespuesta = await respuesta.text();
+
+let resultado;
+
+try {
+  resultado = JSON.parse(textoRespuesta);
+} catch {
+  console.error("Flow devolvió una respuesta no JSON:", {
+    httpStatus: respuesta.status,
+    contenido: textoRespuesta.slice(0, 300)
+  });
+
+  throw new Error("Flow devolvió una respuesta inválida.");
+}
+
+if (
+  !respuesta.ok ||
+  !resultado.url ||
+  !resultado.token
+) {
+  console.error("Detalle del error de Flow:", {
+    httpStatus: respuesta.status,
+    code: resultado.code,
+    message: resultado.message
+  });
+
+  throw new Error(
+    `Flow rechazó el pago: ${resultado.code || respuesta.status}`
+  );
+}
+
 
     // Guardamos el token de Flow para poder
     // verificar posteriormente la misma orden.
